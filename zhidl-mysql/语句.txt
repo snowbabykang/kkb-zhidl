@@ -1,0 +1,27 @@
+// 数字类型
+SELECT * FROM table
+WHERE 字段名 > 1  ADN / OR
+字段名 BETWEEN … AND … 在什么 什么之间
+字段名 NOT BETWEEN … AND … 不在在什么 什么之间
+IN
+NOT IN
+
+
+// 字符串
+SELECT * FROM table
+字段名 LIKE 'abc%'
+字段名 NOT LIKE 'abc'
+字段名 LIKE 'ab_' ab1  ab2  abc
+
+// 排序
+ORDER BY 字段名 ASC/DESC
+
+// 查询
+LIMIT 当前查询数量 OFFSET 从第几条开始查询 (不包含);
+
+// 链接表 表1与表2的交集
+SELECT * FROM 表名1
+INNER JOIN 表名2 ON 表名1.id = 表名2.id;
+
+
+

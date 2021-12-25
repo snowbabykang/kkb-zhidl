@@ -1,0 +1,5 @@
+{
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true
+}

@@ -1,0 +1,20 @@
+https://www.zhihu.com/people/ku-ku-li-82
+
+【LeetCode 55】跳跃游戏
+【LeetCode 121】买卖股票的最佳时机
+【LeetCode 122】买卖股票的最佳时机II
+【LeetCode 123】买卖股票的最佳时机III
+【LeetCode 42】接雨水
+【LeetCode 135】分发糖果
+【LeetCode 229】求众数
+【LeetCode 330】按要求补齐数组
+【LeetCode 376】摆动序列
+【LeetCode 495】提莫攻击
+【LeetCode 556】下一个更大元素III
+【LeetCode 861】反转矩阵后的得分
+【LeetCode 926】将字符串翻转到单调递增
+【LeetCode 927】三等分
+【LeetCode 1053】交换一次的先前排列
+【LeetCode 1111】有效括号的嵌套深度
+【LeetCode 面试题 16.16】部分排序
+【@ln 供题】模糊的数字
