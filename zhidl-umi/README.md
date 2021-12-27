@@ -66,7 +66,7 @@
 ```
 ## 快速开始
 
-项目使用 [ant-design-pro v5](https://beta-pro.ant.design/) 搭建，基本上就是 `umi` 那套东西，开发之前建议看一下文档，熟悉一下配置和目录结构。
+基本上就是 `umi` 那套东西，开发之前建议看一下文档，熟悉一下配置和目录结构。
 
 - 状态管理不推荐使用 `dva`，直接使用 [useModel](https://beta-pro.ant.design/docs/simple-model-cn) 就可以了。项目内置了 mook、权限管理和登录，针对具体场景自己调整，写法就按照官方文档来。
 - 推荐使用 [ahooks](https://ahooks.js.org/zh-CN) 提升开发效率。
