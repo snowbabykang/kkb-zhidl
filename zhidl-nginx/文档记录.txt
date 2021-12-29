@@ -1,0 +1,72 @@
+掘金参考文章：https://juejin.cn/post/6986190222241464350
+
+
+
+有关brew常用的指令：
+brew搜索软件命令： brew search nginx\
+brew安装软件命令： brew install nginx\
+brew卸载软件命令: brew uninstall nginx\
+brew升级命令： sudo brew update\
+查看安装信息(比如查看安装目录等) sudo brew info nginx\
+查看已经安装的软件：brew list
+
+
+作者：Wjhsmart
+链接：https://juejin.cn/post/6986190222241464350
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+nginx的配置文件路径： /opt/homebrew/etc/nginx/nginx.conf
+nginx的服务器默认路径： /opt/homebrew/var/www
+nginx的安装路径： /opt/homebrew/Cellar/nginx/1.21.4
+
+
+终端输入： ps -ef|grep nginx 看是否有启动nginx
+
+
+终端输入： 判断配置文件是否正确
+sudo /opt/homebrew/Cellar/nginx/1.21.4/bin/nginx -t -c /opt/homebrew/etc/nginx/nginx.conf
+
+
+启动：
+
+nginx
+
+1、通过brew：
+brew services start nginx(启动nginx) 
+brew services restart nginx(重启命令)
+
+2、找到bin目录；
+cd /opt/homebrew/Cellar/nginx/1.21.4/bin
+再执行
+./nginx -s reload
+
+3、根据进程号重启
+sudo kill -HUP 72(pid)
+
+停止：
+
+
+kill -QUIT 72(pid) (从容的停止，即不会立刻停止)
+
+Kill -TERM 72(pid) （立刻停止）
+
+Kill -INT 72(pid) （和上面一样，也是立刻停止）
+
+
+
+
+# 启动 
+nginx 
+
+# 停止
+nginx stop
+
+# 安全退出
+nginx -s quit 
+
+# 重新加载配置文件
+nginx -s reload  
+
+# 查看nginx进程
+ps aux|grep nginx 
